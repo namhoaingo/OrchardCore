@@ -1,0 +1,11 @@
+{
+  "ProductPart": [
+    {
+      "place": "Content:last"
+    },
+    {
+      "displayType": "SummaryAdmin",
+      "place": "-"
+    }
+  ]
+}

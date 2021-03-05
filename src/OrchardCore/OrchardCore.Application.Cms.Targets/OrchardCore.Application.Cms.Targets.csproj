@@ -26,6 +26,7 @@
   -->
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\OrchardCoreHargoTheme\src\OrchardCore.Themes\HargoCommerceTheme\HargoCommerceTheme.csproj" />
     <ProjectReference Include="..\OrchardCore.Application.Cms.Core.Targets\OrchardCore.Application.Cms.Core.Targets.csproj" PrivateAssets="none" />
 
     <!--

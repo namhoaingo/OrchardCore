@@ -1,0 +1,141 @@
+{
+  "name": "",
+  "displayName": "",
+  "description": "",
+  "author": "",
+  "website": "",
+  "version": "",
+  "issetuprecipe": false,
+  "categories": [],
+  "tags": [],
+  "steps": [
+    {
+      "name": "content",
+      "data": [
+        {
+          "ContentItemId": "4y176t3t9mb6jzya2jnmmmcc47",
+          "ContentItemVersionId": "4s8rqv6z7c9fry0s4e6eth3b4h",
+          "ContentType": "LandingPage",
+          "DisplayText": "LandingPageTitle",
+          "Latest": true,
+          "Published": true,
+          "ModifiedUtc": "2021-02-27T08:36:28.1281016Z",
+          "PublishedUtc": "2021-02-27T08:36:28.1358526Z",
+          "CreatedUtc": "2021-02-27T08:03:15.9405051Z",
+          "Owner": "4ycxvjpcqzmh1thfx7q7zf1fxs",
+          "Author": "admin",
+          "LandingPage": {
+            "SplashVideo": {
+              "Paths": [
+                "video-splash.mp4"
+              ],
+              "MediaTexts": [
+                ""
+              ]
+            },
+            "SplashHeadingText": {
+              "Text": "Wellness"
+            },
+            "SplashIntroText": {
+              "Value": false,
+              "Text": "Nam Ngo "
+            }
+          },
+          "AutoroutePart": {
+            "Path": "landingpagetitle",
+            "SetHomepage": false,
+            "Disabled": false,
+            "RouteContainedItems": false,
+            "Absolute": false
+          },
+          "HtmlBodyPart": {
+            "Html": ""
+          },
+          "TitlePart": {
+            "Title": "LandingPageTitle"
+          },
+          "SplashVideo": {
+            "ContentItems": [
+              {
+                "ContentItemId": "49n1fgx5yz6481x4ahjchf02my",
+                "ContentItemVersionId": null,
+                "ContentType": "SplashVideo",
+                "DisplayText": null,
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2021-02-27T08:03:15.8778629Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "admin",
+                "SplashVideo": {
+                  "SplashVideo": {
+                    "Paths": [
+                      "video-splash.mp4"
+                    ],
+                    "MediaTexts": [
+                      ""
+                    ]
+                  }
+                },
+                "TitlePart": {
+                  "Title": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "ContentItemId": "4ga55z0h9d0cksjkv00ya4mhx2",
+          "ContentItemVersionId": "40jrs10yqh89g2b2x2pe8wx4na",
+          "ContentType": "Menu",
+          "DisplayText": "Main Menu",
+          "Latest": true,
+          "Published": true,
+          "ModifiedUtc": "2021-02-27T08:51:33.9847278Z",
+          "PublishedUtc": "2021-02-27T08:51:33.9916709Z",
+          "CreatedUtc": "2021-02-27T08:51:02.7407172Z",
+          "Owner": "4ycxvjpcqzmh1thfx7q7zf1fxs",
+          "Author": "admin",
+          "TitlePart": {
+            "Title": "Main Menu"
+          },
+          "AliasPart": {
+            "Alias": "main-menu"
+          },
+          "MenuPart": {},
+          "MenuItemsListPart": {
+            "MenuItems": [
+              {
+                "ContentItemId": "4q6vwq41wcj6xrp0cq98ay6nmt",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": null,
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2021-02-27T08:51:28.0045692Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "admin",
+                "LinkMenuItemPart": {
+                  "Name": "first",
+                  "Url": "/first"
+                },
+                "LinkMenuItem": {}
+              }
+            ]
+          },
+          "@WeldedPartSettings": {
+            "MenuPart": {
+              "Position": "3"
+            },
+            "MenuItemsListPart": {
+              "Position": "4"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

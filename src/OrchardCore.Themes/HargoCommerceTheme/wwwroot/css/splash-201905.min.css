@@ -1,0 +1,230 @@
+.headerWrapper:after, .splash__video:after, .splash__video:before {
+    content: ''
+}
+
+body, html {
+    height: 100%
+}
+
+body, h1, h2, h3, ol, p, ul {
+    margin: 0
+}
+
+
+em {
+    font-family: "Didot 06 A","Didot 06 B","Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif
+}
+
+body {
+    background: #555
+}
+
+    body:hover {
+        cursor: default
+    }
+
+.btn:hover, .language-select select:hover, .language-select:hover {
+    cursor: pointer
+}
+
+.copy--line {
+    display: block
+}
+
+.splash {
+    background: #fff;
+    font-family: "Gotham Narrow A","Gotham Narrow B",HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    min-width: 730px;
+    padding-top: 75px;
+    position: relative
+}
+
+.splash__video {
+    background-size: cover;
+    max-width: 100%;
+    position: relative;
+    text-align: center
+}
+
+    .splash__video:before {
+        display: block;
+        padding-top: 48%
+    }
+
+    .splash__video:after {
+        background: rgba(0,0,0,.25);
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2
+    }
+
+.video-background {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 75px;
+    width: 100%;
+    z-index: 1
+}
+
+.video__content-wrapper {
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3
+}
+
+.content-wrapper--table {
+    display: table;
+    height: 100%;
+    width: 100%
+}
+
+.content-heading-wrapper {
+    display: table-cell;
+    vertical-align: middle
+}
+
+    .content-heading-wrapper.is-centered {
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%,-50%)
+    }
+
+.fr-ca .content-heading-wrapper {
+    width: 100%
+}
+
+@media (min-width:87.5em) {
+    .content-heading-wrapper .btn {
+        font-size: 1vw;
+        padding: .625vw 1.2vw
+    }
+}
+
+.scroll-arrow {
+    bottom: 10px;
+    bottom: .8vw;
+    left: 50%;
+    margin-left: -2.5vw;
+    position: fixed;
+    transition: opacity .5s ease
+}
+
+    .scroll-arrow:after {
+        bottom: 0;
+        color: #fff;
+        content: '\f107';
+        font-size: 86px;
+        font-size: 6.8vw;
+        left: 0;
+        opacity: .5;
+        position: absolute
+    }
+
+.content-heading--main {
+    font-family: 'Cormorant SC',serif;
+    font-size: 192px;
+    font-size: 14.6vw;
+    font-weight: 700;
+    line-height: .7;
+    margin: 8.5% 0 10px
+}
+
+@media (min-width:80em) {
+    .content-heading--main {
+        margin-top: 75px
+    }
+}
+
+@media (min-width:87.5em) {
+    .es-us .content-heading--main, .fr-ca .content-heading--main {
+        font-size: 12vw
+    }
+}
+
+@media (max-width:730px) {
+    .content-heading--main {
+        font-size: 106px;
+        margin-top: 62px
+    }
+}
+
+.is-centered .content-heading--main {
+    margin-top: 0
+}
+
+.secondary .content-heading--main {
+    font-family: "Gotham Narrow A","Gotham Narrow B",HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 115px;
+    font-weight: 500;
+    line-height: .75
+}
+
+.content-heading--sub {
+    font-family: Cormorant,serif;
+    font-size: 25px;
+    font-size: 1.7vw;
+    font-style: italic;
+    line-height: 1.2;
+    margin: 0 0 5vw
+}
+
+@media (min-width:87.5em) {
+    .es-us .content-heading--sub, .fr-ca .content-heading--sub {
+        font-size: 1.2vw
+    }
+}
+
+@media (max-width:730px) {
+    .content-heading--sub {
+        font-size: 14px;
+        margin-bottom: 36.5px
+    }
+}
+
+.content-heading--sub sup, .copyright {
+    font-size: 12px
+}
+
+.btn {
+    border-radius: 4px;
+    display: inline-block;
+    font-family: "Gotham Narrow SSm A","Gotham Narrow SSm B",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+    .btn:hover {
+        text-decoration: none
+    }
+
+    .btn:active {
+        box-shadow: 0 2px 2px rgba(0,0,0,.3) inset
+    }
+
+a.btn--clear {
+    color: #fff
+}
+
+.btn--clear {
+    background: rgba(0,0,0,.5);
+    border: 1px solid #fff;
+    transition: background .5s ease
+}
+
+    .btn--clear:active, .btn--clear:hover {
+        background: rgba(0,0,0,.1)
+    }
+
