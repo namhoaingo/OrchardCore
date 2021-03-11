@@ -19,7 +19,13 @@ namespace Skywalker.WebShop.Migrations
             _contentDefinitionManager.AlterPartDefinition("ProductPart", builder => builder
                 .Attachable()
                 .WithDisplayName("Product Part")
-                .WithDescription("Makes a content item into a product."));
+                .WithDescription("Makes a content item into a product.")
+                .WithField("ImageBig", field => field
+                    .OfType("MediaField")
+                    .WithDisplayName("Main Image"))
+                .WithField("ImageSmall", field => field
+                     .OfType("MediaField")
+                     .WithDisplayName("Small Image")));
 
             return 1;
         }

@@ -87,187 +87,6 @@
       }
     },
     {
-      "name": "Content",
-      "data": [
-        {
-          "ContentItemId": "[js:uuid()]",
-          "ContentType": "LandingPage",
-          "DisplayText": "LandingPageTitle",
-          "Latest": true,
-          "Published": true,
-          "Owner": "[js: parameters('AdminUserId')]",
-          "Author": "[js: parameters('AdminUsername')]",
-          "LandingPage": {
-            "SplashVideo": {
-              "Paths": [
-                "video-splash.mp4"
-              ],
-              "MediaTexts": [
-                ""
-              ]
-            },
-            "SplashHeadingText": {
-              "Text": "fdsafdsfsadfdsaf"
-            },
-            "SplashIntroText": {
-              "Text": "To enhance the lives of those we touch by helping people reach their goals.TM"
-            }
-          },
-          "AutoroutePart": {
-            "Path": "landingpagetitle",
-            "SetHomepage": true,
-            "Disabled": false,
-            "RouteContainedItems": false,
-            "Absolute": false
-          },
-          "TitlePart": {
-            "Title": "LandingPageTitle"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Layers",
-      "Layers": []
-    },
-    {
-      "name": "Settings",
-      "LayerSettings": {
-        "Zones": []
-      }
-    },
-    {
-      "name": "MediaProfiles",
-      "MediaProfiles": {}
-    },
-    {
-      "name": "Queries",
-      "Queries": []
-    },
-    {
-      "name": "Roles",
-      "Roles": [
-        {
-          "Name": "Authenticated",
-          "Description": "Authenticated role",
-          "Permissions": [
-            "ViewContent"
-          ]
-        },
-        {
-          "Name": "Anonymous",
-          "Description": "Anonymous role",
-          "Permissions": [
-            "ViewContent"
-          ]
-        },
-        {
-          "Name": "Editor",
-          "Description": "Editor role",
-          "Permissions": [
-            "AccessAdminPanel",
-            "ManageAdminMenu",
-            "ManageTemplates",
-            "PublishContent",
-            "EditContent",
-            "DeleteContent",
-            "PreviewContent",
-            "CloneContent",
-            "ListContent",
-            "ManageShortcodeTemplates",
-            "QueryLuceneApi",
-            "ManageMediaContent",
-            "ManagePlacements",
-            "ManageQueries",
-            "ManageOwnUserInformation"
-          ]
-        },
-        {
-          "Name": "Moderator",
-          "Description": "Moderator role",
-          "Permissions": [
-            "AccessAdminPanel",
-            "ManageOwnUserInformation"
-          ]
-        },
-        {
-          "Name": "Contributor",
-          "Description": "Contributor role",
-          "Permissions": [
-            "AccessAdminPanel",
-            "EditOwnContent",
-            "PreviewOwnContent",
-            "CloneOwnContent",
-            "ManageMediaContent",
-            "ManageOwnUserInformation"
-          ]
-        },
-        {
-          "Name": "Author",
-          "Description": "Author role",
-          "Permissions": [
-            "AccessAdminPanel",
-            "PublishOwnContent",
-            "EditOwnContent",
-            "DeleteOwnContent",
-            "PreviewOwnContent",
-            "CloneOwnContent",
-            "ManageMediaContent",
-            "ManageOwnUserInformation"
-          ]
-        },
-        {
-          "Name": "Administrator",
-          "Description": "Administrator role",
-          "Permissions": [
-            "ManageSettings",
-            "AccessAdminPanel",
-            "ManageAdminSettings",
-            "ManageAdminMenu",
-            "ManageTemplates",
-            "ManageAdminTemplates",
-            "PublishContent",
-            "EditContent",
-            "DeleteContent",
-            "PreviewContent",
-            "CloneContent",
-            "AccessContentApi",
-            "ListContent",
-            "ViewContentTypes",
-            "EditContentTypes",
-            "SetHomepage",
-            "ManageShortcodeTemplates",
-            "Import",
-            "Export",
-            "ManageFeatures",
-            "ManageLayers",
-            "ManageIndexes",
-            "ManageMediaContent",
-            "ManageAttachedMediaFieldsFolder",
-            "ManageMediaProfiles",
-            "ViewMediaOptions",
-            "ManageMenu",
-            "ManagePlacements",
-            "ManageQueries",
-            "ManageUsers",
-            "ManageRoles",
-            "AssignRoles",
-            "SiteOwner",
-            "ManageTaxonomy",
-            "ApplyTheme"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "ShortcodeTemplates",
-      "ShortcodeTemplates": {}
-    },
-    {
-      "name": "Templates",
-      "Templates": {}
-    },
-    {
       "name": "ContentDefinition",
       "ContentTypes": [
         {
@@ -467,6 +286,67 @@
               "PartName": "TitlePart",
               "Name": "TitlePart",
               "Settings": {}
+            }
+          ]
+        },
+        {
+          "Name": "ProductType",
+          "DisplayName": "ProductType",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Creatable": true,
+              "Listable": true,
+              "Draftable": true,
+              "Versionable": true,
+              "Securable": true
+            },
+            "FullTextAspectSettings": {}
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "ProductType",
+              "Name": "ProductType",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "1"
+                }
+              }
+            },
+            {
+              "PartName": "AutoroutePart",
+              "Name": "AutoroutePart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "2"
+                }
+              }
+            },
+            {
+              "PartName": "TitlePart",
+              "Name": "TitlePart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            },
+            {
+              "PartName": "PricePart",
+              "Name": "PricePart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "3"
+                }
+              }
+            },
+            {
+              "PartName": "ProductPart",
+              "Name": "ProductPart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "4"
+                }
+              }
             }
           ]
         }
@@ -674,8 +554,227 @@
               }
             }
           ]
+        },
+        {
+          "Name": "ProductPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "DisplayName": "Product Part",
+              "Description": "Makes a content item into a product."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
         }
       ]
+    },
+    {
+      "name": "Content",
+      "data": [
+        {
+          "ContentItemId": "[js:uuid()]",
+          "ContentType": "LandingPage",
+          "DisplayText": "LandingPageTitle",
+          "Latest": true,
+          "Published": true,
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
+          "LandingPage": {
+            "SplashVideo": {
+              "Paths": [
+                "video-splash.mp4"
+              ],
+              "MediaTexts": [
+                ""
+              ]
+            },
+            "SplashHeadingText": {
+              "Text": "fdsafdsfsadfdsaf"
+            },
+            "SplashIntroText": {
+              "Text": "To enhance the lives of those we touch by helping people reach their goals.TM"
+            }
+          },
+          "AutoroutePart": {
+            "Path": "landingpagetitle",
+            "SetHomepage": true,
+            "Disabled": false,
+            "RouteContainedItems": false,
+            "Absolute": false
+          },
+          "TitlePart": {
+            "Title": "LandingPageTitle"
+          }
+        },
+        {
+          "ContentItemId": "[js: uuid()]",
+          "ContentType": "ProductType",
+          "DisplayText": "117",
+          "Latest": true,
+          "Published": true,
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
+          "ProductType": {},
+          "AutoroutePart": {
+            "Path": "aaaa",
+            "SetHomepage": false,
+            "Disabled": false,
+            "RouteContainedItems": false,
+            "Absolute": false
+          },
+          "PricePart": {
+            "PriceValue": 0.0
+          },
+          "ProductPart": {
+            "Sku": "117",
+            "CategoryId": "asasas"
+          },
+          "TitlePart": {
+            "Title": "117"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Layers",
+      "Layers": []
+    },
+    {
+      "name": "Settings",
+      "LayerSettings": {
+        "Zones": []
+      }
+    },
+    {
+      "name": "MediaProfiles",
+      "MediaProfiles": {}
+    },
+    {
+      "name": "Queries",
+      "Queries": []
+    },
+    {
+      "name": "Roles",
+      "Roles": [
+        {
+          "Name": "Authenticated",
+          "Description": "Authenticated role",
+          "Permissions": [
+            "ViewContent"
+          ]
+        },
+        {
+          "Name": "Anonymous",
+          "Description": "Anonymous role",
+          "Permissions": [
+            "ViewContent"
+          ]
+        },
+        {
+          "Name": "Editor",
+          "Description": "Editor role",
+          "Permissions": [
+            "AccessAdminPanel",
+            "ManageAdminMenu",
+            "ManageTemplates",
+            "PublishContent",
+            "EditContent",
+            "DeleteContent",
+            "PreviewContent",
+            "CloneContent",
+            "ListContent",
+            "ManageShortcodeTemplates",
+            "QueryLuceneApi",
+            "ManageMediaContent",
+            "ManagePlacements",
+            "ManageQueries",
+            "ManageOwnUserInformation"
+          ]
+        },
+        {
+          "Name": "Moderator",
+          "Description": "Moderator role",
+          "Permissions": [
+            "AccessAdminPanel",
+            "ManageOwnUserInformation"
+          ]
+        },
+        {
+          "Name": "Contributor",
+          "Description": "Contributor role",
+          "Permissions": [
+            "AccessAdminPanel",
+            "EditOwnContent",
+            "PreviewOwnContent",
+            "CloneOwnContent",
+            "ManageMediaContent",
+            "ManageOwnUserInformation"
+          ]
+        },
+        {
+          "Name": "Author",
+          "Description": "Author role",
+          "Permissions": [
+            "AccessAdminPanel",
+            "PublishOwnContent",
+            "EditOwnContent",
+            "DeleteOwnContent",
+            "PreviewOwnContent",
+            "CloneOwnContent",
+            "ManageMediaContent",
+            "ManageOwnUserInformation"
+          ]
+        },
+        {
+          "Name": "Administrator",
+          "Description": "Administrator role",
+          "Permissions": [
+            "ManageSettings",
+            "AccessAdminPanel",
+            "ManageAdminSettings",
+            "ManageAdminMenu",
+            "ManageTemplates",
+            "ManageAdminTemplates",
+            "PublishContent",
+            "EditContent",
+            "DeleteContent",
+            "PreviewContent",
+            "CloneContent",
+            "AccessContentApi",
+            "ListContent",
+            "ViewContentTypes",
+            "EditContentTypes",
+            "SetHomepage",
+            "ManageShortcodeTemplates",
+            "Import",
+            "Export",
+            "ManageFeatures",
+            "ManageLayers",
+            "ManageIndexes",
+            "ManageMediaContent",
+            "ManageAttachedMediaFieldsFolder",
+            "ManageMediaProfiles",
+            "ViewMediaOptions",
+            "ManageMenu",
+            "ManagePlacements",
+            "ManageQueries",
+            "ManageUsers",
+            "ManageRoles",
+            "AssignRoles",
+            "SiteOwner",
+            "ManageTaxonomy",
+            "ApplyTheme"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShortcodeTemplates",
+      "ShortcodeTemplates": {}
+    },
+    {
+      "name": "Templates",
+      "Templates": {}
     },
     {
       "name": "custom-settings"
@@ -1124,6 +1223,20 @@
       "name": "Themes",
       "Site": "HargoCommerceTheme",
       "Admin": "TheAdmin"
+    },
+    {
+      "name": "lucene-index",
+      "Indices": [
+        {
+          "Search": {
+            "AnalyzerName": "standardanalyzer",
+            "IndexLatest": false,
+            "IndexedContentTypes": [
+              "ProductType"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

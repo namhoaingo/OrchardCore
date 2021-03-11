@@ -395,9 +395,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrchardCore.Rules.Abstracti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrchardCore.Roles.Core", "src\OrchardCore\OrchardCore.Roles.Core\OrchardCore.Roles.Core.csproj", "{15E0499A-815D-4E98-B1E4-1C9D7B3D1461}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HargoCommerceTheme", "..\OrchardCoreHargoTheme\src\OrchardCore.Themes\HargoCommerceTheme\HargoCommerceTheme.csproj", "{0AD6158F-72EB-4BF5-AB1B-D3BB8C1157D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HargoCommerceTheme", "src\OrchardCore.Themes\HargoCommerceTheme\HargoCommerceTheme.csproj", "{38B7DEDE-AC38-46D2-9835-B9E4FF600DB2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skywalker.WebShop", "..\OrchardCoreHargoTheme\src\OrchardCore.Themes\Skywalker.WebShop\Skywalker.WebShop.csproj", "{C9757823-1AF4-4F94-AE3C-7291CA48A443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skywalker.WebShop", "src\OrchardCore.Themes\Skywalker.WebShop\Skywalker.WebShop.csproj", "{BC5C73E7-C589-4973-9F95-C44B092875BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1077,14 +1077,14 @@ Global
 		{15E0499A-815D-4E98-B1E4-1C9D7B3D1461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15E0499A-815D-4E98-B1E4-1C9D7B3D1461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15E0499A-815D-4E98-B1E4-1C9D7B3D1461}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0AD6158F-72EB-4BF5-AB1B-D3BB8C1157D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AD6158F-72EB-4BF5-AB1B-D3BB8C1157D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AD6158F-72EB-4BF5-AB1B-D3BB8C1157D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AD6158F-72EB-4BF5-AB1B-D3BB8C1157D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C9757823-1AF4-4F94-AE3C-7291CA48A443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9757823-1AF4-4F94-AE3C-7291CA48A443}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9757823-1AF4-4F94-AE3C-7291CA48A443}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9757823-1AF4-4F94-AE3C-7291CA48A443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B7DEDE-AC38-46D2-9835-B9E4FF600DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B7DEDE-AC38-46D2-9835-B9E4FF600DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B7DEDE-AC38-46D2-9835-B9E4FF600DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B7DEDE-AC38-46D2-9835-B9E4FF600DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5C73E7-C589-4973-9F95-C44B092875BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5C73E7-C589-4973-9F95-C44B092875BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5C73E7-C589-4973-9F95-C44B092875BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5C73E7-C589-4973-9F95-C44B092875BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1272,8 +1272,8 @@ Global
 		{273883B9-1765-4C24-8B82-8E9105ED426A} = {90030E85-0C4F-456F-B879-443E8A3F220D}
 		{78C8590E-F7DC-452E-A2E1-2FC00347A984} = {F23AC6C2-DE44-4699-999D-3C478EF3D691}
 		{15E0499A-815D-4E98-B1E4-1C9D7B3D1461} = {F23AC6C2-DE44-4699-999D-3C478EF3D691}
-		{0AD6158F-72EB-4BF5-AB1B-D3BB8C1157D1} = {AF3BADEA-CC93-4116-B3C1-F8D074EBEE4F}
-		{C9757823-1AF4-4F94-AE3C-7291CA48A443} = {AF3BADEA-CC93-4116-B3C1-F8D074EBEE4F}
+		{38B7DEDE-AC38-46D2-9835-B9E4FF600DB2} = {AF3BADEA-CC93-4116-B3C1-F8D074EBEE4F}
+		{BC5C73E7-C589-4973-9F95-C44B092875BF} = {AF3BADEA-CC93-4116-B3C1-F8D074EBEE4F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46A1D25A-78D1-4476-9CBF-25B75E296341}

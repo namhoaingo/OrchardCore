@@ -167,9 +167,11 @@ namespace Skywalker.WebShop.MoneyDataType
 
         public static ICurrency FromCulture(CultureInfo culture, IEnumerable<ICurrencyProvider> providers = null)
         {
-            KnownCurrencyTable.EnsureCurrencyTable();
-            var temp = new Currency(culture);
-            return temp != null ? (providers ?? new List<ICurrencyProvider>()).SelectMany(p => p.Currencies).FirstOrDefault(c => c.CurrencyIsoCode == temp.CurrencyIsoCode) : null;
+            //    KnownCurrencyTable.EnsureCurrencyTable();
+            //    var temp = new Currency(culture);
+            //    return temp != null ? (providers ?? new List<ICurrencyProvider>()).SelectMany(p => p.Currencies).FirstOrDefault(c => c.CurrencyIsoCode == temp.CurrencyIsoCode) : null;
+            //
+            throw new System.Exception();
         }
     }
 }
